@@ -1,0 +1,44 @@
+Importer Log Report
+Project : Group
+
+Section : Analyze Document - C:\Users\dinh thong\Desktop\quad_hardware\STM32F4-Discovery-Breakout-Board-master\STM32F4-DISCOVERY.lbr
+    Analyzing data of C:\Users\dinh thong\Desktop\quad_hardware\STM32F4-Discovery-Breakout-Board-master\STM32F4-DISCOVERY.lbr
+    Load settings
+    Load layers 119
+    Load Library library
+    Load Library ""
+    Load Packages 1
+    Load Symbols 1
+    Load DeviceSets 1
+EndSection
+
+Section : Analyze Document - C:\Users\dinh thong\Desktop\quad_hardware\STM32F4-Discovery-Breakout-Board-master\stm32f4-discovery-breakout-v1.lbr
+    Analyzing data of C:\Users\dinh thong\Desktop\quad_hardware\STM32F4-Discovery-Breakout-Board-master\stm32f4-discovery-breakout-v1.lbr
+    Load settings
+    Load layers 119
+    Load Library library
+    Load Library ""
+    Load Packages 5
+    Load Symbols 2
+    Load DeviceSets 2
+EndSection
+
+Section : Analyze Document - C:\Users\dinh thong\Desktop\quad_hardware\STM32F4-Discovery-Breakout-Board-master\stm32f4-discovery-breakout-v1.brd
+    Analyzing data of C:\Users\dinh thong\Desktop\quad_hardware\STM32F4-Discovery-Breakout-Board-master\stm32f4-discovery-breakout-v1.brd
+    Load settings
+    Load layers 112
+    Load Library "STM32F4-DISCOVERY"
+    Load Packages 1
+    Load Library "SparkFun-Connectors"
+    Load Packages 1
+EndSection
+
+Section : Analyze Document - C:\Users\dinh thong\Desktop\quad_hardware\STM32F4-Discovery-Breakout-Board-master\stm32f4-discovery-breakout-v2.brd
+    Analyzing data of C:\Users\dinh thong\Desktop\quad_hardware\STM32F4-Discovery-Breakout-Board-master\stm32f4-discovery-breakout-v2.brd
+    Load settings
+    Load layers 119
+    Load Library "STM32F4-DISCOVERY"
+    Load Packages 1
+    Load Library "SparkFun-Connectors"
+    Load Packages 1
+EndSection
