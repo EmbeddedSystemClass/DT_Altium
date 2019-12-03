@@ -1,0 +1,39 @@
+Added Component: Designator=C1(CP1/2)
+Added Component: Designator=C2(CP1/2)
+Added Component: Designator=C3(CN1)
+Added Component: Designator=C4(CN1)
+Added Component: Designator=D1(LED-0)
+Added Component: Designator=JDC1(DC-IN)
+Added Component: Designator=P1(JP2)
+Added Component: Designator=R1(RES 1/2W)
+Added Component: Designator=UN1(QTO-220)
+Added Pin To Net: NetName=12VDC Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=12VDC Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=NetC2_1 Pin=C4-2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=12VDC Pin=JDC1-1
+Added Pin To Net: NetName=GND Pin=JDC1-2
+Added Pin To Net: NetName=GND Pin=JDC1-3
+Added Pin To Net: NetName=NetC2_1 Pin=P1-1
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=NetD1_1 Pin=R1-1
+Added Pin To Net: NetName=NetC2_1 Pin=R1-2
+Added Pin To Net: NetName=12VDC Pin=UN1-1
+Added Pin To Net: NetName=GND Pin=UN1-2
+Added Pin To Net: NetName=NetC2_1 Pin=UN1-3
+Added Member To Class: ClassName=lm7805 Member=Component C1 Cap Pol
+Added Member To Class: ClassName=lm7805 Member=Component C2 Cap Pol
+Added Member To Class: ClassName=lm7805 Member=Component C3 Cap Non-Pol
+Added Member To Class: ClassName=lm7805 Member=Component C4 Cap Non-Pol
+Added Member To Class: ClassName=lm7805 Member=Component D1 LED0
+Added Member To Class: ClassName=lm7805 Member=Component JDC1 Jack DC
+Added Member To Class: ClassName=lm7805 Member=Component P1 Header 2
+Added Member To Class: ClassName=lm7805 Member=Component R1 RESISTOR
+Added Member To Class: ClassName=lm7805 Member=Component UN1 LM7805
+Added Room: Name=lm7805

@@ -1,0 +1,31 @@
+Added Component: Designator=C1(CP1/2)
+Added Component: Designator=C2(CP1/2)
+Added Component: Designator=C3(CN1)
+Added Component: Designator=C4(CN1)
+Added Component: Designator=D1(LED-0)
+Added Component: Designator=JDC1(DC-IN)
+Added Component: Designator=P1(JP2)
+Added Component: Designator=UN1(QTO-220)
+Added Pin To Net: NetName=12VDC Pin=C1-1
+Added Pin To Net: NetName=12VDC Pin=C3-2
+Added Pin To Net: NetName=12VDC Pin=JDC1-1
+Added Pin To Net: NetName=12VDC Pin=UN1-1
+Added Net: Name=12VDC
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=GND Pin=JDC1-2
+Added Pin To Net: NetName=GND Pin=JDC1-3
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=UN1-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=C4-2
+Added Pin To Net: NetName=NetC2_1 Pin=P1-1
+Added Pin To Net: NetName=NetC2_1 Pin=UN1-3
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Net: Name=NetD1_1
+Added Class: Name=lm7805

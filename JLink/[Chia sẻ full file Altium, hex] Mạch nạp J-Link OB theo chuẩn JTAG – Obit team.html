@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<!-- saved from url=(0104)https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/ -->
+<html lang="vi"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+	<title>[Chia sẻ full file Altium, hex]  Mạch nạp J-Link OB theo chuẩn JTAG – Obit team</title>
+<link rel="dns-prefetch" href="https://s2.wp.com/">
+<link rel="dns-prefetch" href="https://s1.wp.com/">
+<link rel="dns-prefetch" href="https://s0.wp.com/">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="https://s.pubmine.com/">
+<link rel="dns-prefetch" href="https://x.bidswitch.net/">
+<link rel="dns-prefetch" href="https://static.criteo.net/">
+<link rel="dns-prefetch" href="https://ib.adnxs.com/">
+<link rel="dns-prefetch" href="https://aax.amazon-adsystem.com/">
+<link rel="dns-prefetch" href="https://bidder.criteo.com/">
+<link rel="dns-prefetch" href="https://cas.criteo.com/">
+<link rel="dns-prefetch" href="https://gum.criteo.com/">
+<link rel="dns-prefetch" href="https://ads.pubmatic.com/">
+<link rel="dns-prefetch" href="https://gads.pubmatic.com/">
+<link rel="dns-prefetch" href="https://tpc.googlesyndication.com/">
+<link rel="dns-prefetch" href="https://ad.doubleclick.net/">
+<link rel="dns-prefetch" href="https://googleads.g.doubleclick.net/">
+<link rel="dns-prefetch" href="https://www.googletagservices.com/">
+<link rel="dns-prefetch" href="https://cdn.switchadhub.com/">
+<link rel="dns-prefetch" href="https://delivery.g.switchadhub.com/">
+<link rel="dns-prefetch" href="https://delivery.swid.switchadhub.com/">
+<link rel="alternate" type="application/rss+xml" title="Dòng thông tin Obit team »" href="https://obitvn.wordpress.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Dòng phản hồi Obit team »" href="https://obitvn.wordpress.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Obit team » [Chia sẻ full file Altium, hex]  Mạch nạp J-Link OB theo chuẩn JTAG Dòng phản hồi" href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/feed/">
+	<script src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/client.js.download" async="" type="text/javascript"></script><script type="text/javascript" async="" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/recaptcha__vi.js.download"></script><script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1532082729h&ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/wp-emoji-release.min.js.download" type="text/javascript" defer=""></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="all-css-0-1" href="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/saved_resource(1)" type="text/css" media="all">
+<link rel="stylesheet" id="apostrophe-2-fonts-css" href="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/css(1)" type="text/css" media="all">
+<link rel="stylesheet" id="all-css-2-1" href="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/saved_resource(2)" type="text/css" media="all">
+<link rel="stylesheet" id="print-css-3-1" href="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/global-print.css" type="text/css" media="print">
+<link rel="stylesheet" id="all-css-4-1" href="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/saved_resource(3)" type="text/css" media="all">
+<script type="text/javascript">
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/saved_resource(4)"></script>
+<link rel="stylesheet" id="all-css-0-2" href="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/style(1).css" type="text/css" media="all">
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://obitvn.wordpress.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml"> 
+<link rel="prev" title="Cách ly sử dụng Opto đã lỗi thời?" href="https://obitvn.wordpress.com/2018/07/16/thay-the-opto-chung-ta-co-gi/">
+<link rel="next" title="Robot dò line sử dụng arduino uno r3" href="https://obitvn.wordpress.com/2018/08/01/robot-do-line-su-dung-arduino-uno-r3/">
+<meta name="generator" content="WordPress.com">
+<link rel="canonical" href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/">
+<link rel="shortlink" href="https://wp.me/p8eYUl-4s">
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/?format=json&amp;url=https%3A%2F%2Fobitvn.wordpress.com%2F2018%2F07%2F31%2Fchia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag%2F&amp;for=wpcom-auto-discovery"><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/?format=xml&amp;url=https%3A%2F%2Fobitvn.wordpress.com%2F2018%2F07%2F31%2Fchia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag%2F&amp;for=wpcom-auto-discovery">
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="[Chia sẻ full file Altium, hex]  Mạch nạp J-Link OB theo chuẩn JTAG">
+<meta property="og:url" content="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/">
+<meta property="og:description" content="Mấy bạn lập trình các dòng chip lõi ARM, có lẽ đều đã nghe qua hoặc sử dụng mạch nạp J_LINK, ông trùm trong giới mạch nạp/debug lõi ARM và một số dòng chip khác. Hiện nay J-LINK đã có đến phiên bản…">
+<meta property="article:published_time" content="2018-07-31T13:30:27+00:00">
+<meta property="article:modified_time" content="2018-08-06T03:27:02+00:00">
+<meta property="og:site_name" content="Obit team">
+<meta property="og:image" content="https://obitvn.files.wordpress.com/2018/07/jlink-font1.jpg">
+<meta property="og:image:width" content="723">
+<meta property="og:image:height" content="542">
+<meta property="og:locale" content="vi_VN">
+<meta name="twitter:site" content="@wordpressdotcom">
+<meta name="twitter:text:title" content="[Chia sẻ full file Altium, hex]  Mạch nạp J-Link OB theo chuẩn JTAG">
+<meta name="twitter:image" content="https://obitvn.files.wordpress.com/2018/07/jlink-font1.jpg?w=640">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="fb:app_id" content="249643311490">
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom">
+
+<!-- End Jetpack Open Graph Tags -->
+<link rel="search" type="application/opensearchdescription+xml" href="https://obitvn.wordpress.com/osd.xml" title="Obit team">
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com">
+<meta name="application-name" content="Obit team"><meta name="msapplication-window" content="width=device-width;height=device-height"><meta name="msapplication-tooltip" content="arm/stm32/avr/arduino/ble/bluetooth/stm32f4/efm/efr/"><meta name="msapplication-task" content="name=Theo dõi;action-uri=https://obitvn.wordpress.com/feed/;icon-uri=https://obitvn.files.wordpress.com/2018/06/cropped-obit-logo.png?w=16"><meta name="msapplication-task" content="name=Đăng ký một blog miễn phí;action-uri=http://wordpress.com/signup/;icon-uri=https://s1.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Hỗ trợ của WordPress.com;action-uri=http://support.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico"><meta name="msapplication-task" content="name=Diễn đàn của WordPress.com;action-uri=http://forums.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico"><meta name="description" content="Mấy bạn lập trình các dòng chip lõi ARM, có lẽ đều đã nghe qua hoặc sử dụng mạch nạp J_LINK, ông trùm trong giới mạch nạp/debug lõi ARM và một số dòng chip khác. Hiện nay J-LINK đã có đến phiên bản V10, hỗ trợ hàng loạt dòng vi điều khiển khác nhau. J_LINK…">
+		<style type="text/css" id="apostrophe-2-header-css">
+				</style>
+				<script type="text/javascript">
+		function __ATA_CC() {var v = document.cookie.match('(^|;) ?personalized-ads-consent=([^;]*)(;|$)');return v ? 1 : 0;}
+		var __ATA_PP = { pt: 1, ht: 0, tn: 'apostrophe-2', amp: false, siteid: 8982, consent: __ATA_CC() };
+		var __ATA = __ATA || {};
+		__ATA.cmd = __ATA.cmd || [];
+		__ATA.criteo = __ATA.criteo || {};
+		__ATA.criteo.cmd = __ATA.criteo.cmd || [];
+		</script>
+		<script type="text/javascript" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/head.js.download" async=""></script><link rel="amphtml" href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/amp/"><style type="text/css" id="syntaxhighlighteranchor"></style>
+<link rel="icon" href="https://obitvn.files.wordpress.com/2018/06/cropped-obit-logo.png?w=32" sizes="32x32">
+<link rel="icon" href="https://obitvn.files.wordpress.com/2018/06/cropped-obit-logo.png?w=192" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="https://obitvn.files.wordpress.com/2018/06/cropped-obit-logo.png?w=180">
+<meta name="msapplication-TileImage" content="https://obitvn.files.wordpress.com/2018/06/cropped-obit-logo.png?w=270">
+<script type="text/javascript">
+	window.google_analytics_uacct = "UA-52447-2";
+</script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-52447-2']);
+	_gaq.push(['_setDomainName', 'wordpress.com']);
+	_gaq.push(['_initData']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+</script><script type="text/javascript" async="" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/ga.js.download"></script>
+	<style type="text/css"></style><style type="text/css">.adtags-stiky-ad {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #8a8a8f;
+    z-index: 16777271;
+    box-shadow: 0 1px 4px 0 rgba(51, 51, 51, 0.25), 0 0 1px 0 rgba(200, 199, 204, 0.5);
+}
+
+.adtags-stiky-ad__slot {
+    margin: 0 auto;
+}
+
+.adtags-sticky-ad__swipe-area {
+    width: 76px;
+    height: 36px;
+    position: absolute;
+    left: 50%;
+    bottom: -28px;
+    margin-left: -36px;
+}
+
+.adtags-stiky-ad__control {
+    width: 56px;
+    height: 16px;
+    top: 8px;
+    background-color: #8a8a8f;
+    position: absolute;
+    left: 50%;
+    margin-left: -28px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    box-shadow: 0 1px 1px 0 rgba(51, 51, 51, 0.25);
+}
+
+.adtags-stiky-ad_hidden {
+    display: none;
+}
+
+.adtags-stiky-ad__control {
+    cursor: pointer;
+}
+
+.adtags-stiky-ad__arrow {
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    width: 13px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 1px;
+    animation: 1s
+}
+
+.adtags-stiky-ad__arrow_left {
+    margin-left: -12px;
+}
+
+.adtags-stiky-ad__arrow_right {
+    margin-left: -1px;
+}
+
+@keyframes adtags-move-left-arrow-down {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(-25deg);}
+}
+
+@keyframes adtags-move-right-arrow-down {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(25deg);}
+}
+
+@keyframes adtags-move-left-arrow-up {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(25deg);}
+}
+
+@keyframes adtags-move-right-arrow-up {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(-25deg);}
+}
+
+@media (min-width: 960px) {
+    .adtags-stiky-ad_opened .adtags-stiky-ad__control:hover .adtags-stiky-ad__arrow_left {
+        animation: adtags-move-left-arrow-down .5s;
+        transform: rotate(-25deg);
+    }
+    
+    .adtags-stiky-ad_opened .adtags-stiky-ad__control:hover .adtags-stiky-ad__arrow_right {
+        animation: adtags-move-right-arrow-down .5s;
+        transform: rotate(25deg);
+    }
+    
+    .adtags-stiky-ad_closed .adtags-stiky-ad__control:hover .adtags-stiky-ad__arrow_left {
+        animation: adtags-move-left-arrow-up .5s;
+        transform: rotate(25deg);
+    }
+    
+    .adtags-stiky-ad_closed .adtags-stiky-ad__control:hover .adtags-stiky-ad__arrow_right {
+        animation: adtags-move-right-arrow-up .5s;
+        transform: rotate(-25deg);
+    }
+}
+</style><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }
+body /shadow-deep/ [touch-action="none"]{ -ms-touch-action: none; touch-action: none; }
+[touch-action="auto"]{ -ms-touch-action: auto; touch-action: auto; }
+body /shadow-deep/ [touch-action="auto"]{ -ms-touch-action: auto; touch-action: auto; }
+[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }
+body /shadow-deep/ [touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }
+[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }
+body /shadow-deep/ [touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }
+[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }
+body /shadow-deep/ [touch-action="pan-x pan-y"],body /shadow-deep/ [touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }
+</style><style>
+    .ata-controls {
+        text-align: right;
+        line-height: 10px;
+        height: 10px;
+    }
+
+    .ata-controls__complain-btn {
+        font-size: 6px;
+        vertical-align: middle;
+        font-family: Verdana, sans-serif;
+        color: #c8c7cc;
+        text-transform: uppercase;
+        letter-spacing: 0.3px;
+        cursor: pointer;
+    }
+
+    .ata-controls__complain-btn:hover {
+        color: #666666;
+    }
+    .ata-controls__complain-btn:active {
+        color: #5ac8fa;
+    }
+
+    .ata-controls__complain-btn_clicked,
+    .ata-controls__complain-btn_clicked:hover,
+    .ata-controls__complain-btn_clicked:active {
+        color: #000;
+        cursor: default;
+    }
+</style><link rel="stylesheet" type="text/css" id="gravatar-card-css" href="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/hovercard.min.css"><link rel="stylesheet" type="text/css" id="gravatar-card-services-css" href="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/services.min.css"><script src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/saved_resource(5)" type="text/javascript" async=""></script><script src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/saved_resource(6)" type="text/javascript" async=""></script><script src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/outstream.js.download" async=""></script><style type="text/css">
+.iowo-adv {
+   overflow: hidden;
+}
+.iowo-adv__header {
+   font-family: "Helvetica", Arial, sans-serif !important;
+   font-size: 11.5px !important;
+   text-align: center;
+   position: relative;
+   padding: 5px 0px;
+   letter-spacing: 0.3px !important;
+   font-weight: 300 !important;
+   text-transform: uppercase;
+   color: #aaa;
+}
+.iowo-adv__close-icon {
+   width: 24px;
+   height: 24px;
+   position: absolute;
+   right: 10px;
+   top: 34px;
+   z-index:10;
+   cursor: pointer;
+   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH4gMQDS4lyDpzXgAAAKlJREFUWMPVV1sOgCAMo9yZU3Bo/THGRKaylTXuF9YW9mCgtbaVw3rvKAl25azWQgb5TcBqESNsWAvscFgceNuwkvy8gZUi3jAx68AkHwpgifiKgShA1BcsIK8PmKfxCKZdqTdkYCRVJF/CmT2ymYoBo7Yj5UprMN6GVYvY/hUCaRJKy1DaiKStWPoYSZ9j6UAiHcmkQ6l0LJd+TDLIn0TULHILu2aRWxw7NqDQ4pqt7KcAAAAASUVORK5CYII=");
+   background-size: contain;
+}
+.iowo-adv__close-icon_touch {
+   left: 10px;
+}
+.iowo-adv__sound-icon {
+   width: 32px;
+   cursor: pointer;
+   height: 32px;
+   position: absolute;
+   bottom:12px;
+   right:5px;
+   z-index:10;
+}
+.iowo-adv__sound-icon_on {
+   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QYcDigM2jawiwAAAbhJREFUWMPtl7FLHFEQxr+ZtwTytLDwmjSnhf+AYrpUBwGvS7F2YqFNQNjieCnsTlPscdxdZ2MVCORIEewMwf/AlEkRCRaSKqQMCrnbGZtVLPRye2/dJcSpdos33292vjfvLfAQ/3tQHkkajcYqM68YY3bjOD7NsjbwFXfOhSLyDgAPBgMBsJFlPXuK10TkLTNf5ZnKmoM9PvuSqh4w8yOfInjCyhcAHBLRtG8LeQLxJyLyiZkreRg4E0AURTOq+pGZ5/LahsEodwN4A+Dxfc6BUdsw9BF3zkWqOq2q+51O5+ckLWDP4p4R0Wtm/uqcW7wvkXFiVkT6YRiaQgGGw+Gaqn4AAGZeqFarTwsF6PV6F0R0eH3oEFUKBXDO1QBsX70bY74U7YGXAObT5/5dp2QRJuyLyGbmOaCq50Re14XYGPPqb/eDOwGCINhJkkRvHrGqOkNEtXHU2+32Z69JGMfxdwDrt5hrL+1vLpHZA9baLQDvSwNoNptirV0DcFQKQArxx1r7AsBxKQApxO8kSeoi8q0UAADodru/giB4LiI/0pl/UigAALRarTMiWhaRurV25+FX65+LSxNniSadskJNAAAAAElFTkSuQmCC");
+}
+.iowo-adv__sound-icon_off {
+   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAdBJREFUWIXt1b9r1GAcx/HP840u94jo6mD/Aae24I9NHZSCi5NDO5TO7fLkCTgdt15y4C6IdHFwEpxscRHc1dHB0UFBOvToks/Xxch53j3JExNB6XcMz+X1Ti5PApzO/zLD4fBMm99JF7hzbm86nZ6kafp02Rrv/apz7mrnAd77LRF5BCBR1fvLcJKHIvIqy7JrnQV47zdIPgFgAEBEfjvfDH4RwHmSW50EZFl2g+RzEfn535P8FsABYN9au/vHAc65K2VZvhSRwQz+JUmSjRA+GAy2R6MRZ89lWuArAN6KyKU5/PZ4PP4QgwNAcOs4524ZYy7/UmzMQwBLcefcGsmDJjgQuAPe+5sAXocCF+EAGuNA4BlQ1ZW+8WDA38BbBXSJRwfU4SSnMThQswvqcBE5BHChWiMiGoMDDe9AE7zt1Ab0idcG9I0HA0i+6xsHGn4LvPfrAA4a4Md5np+LCah9BuZxVX1G8mMM0jpgwZXvW2s3AdwB8LnXgEV49ZKZTCafVPUuyaNeAkJ4taYoivcico/kSacBTfBq8jx/Y4x5AKD8caicXxMdoKpnSSZ1eDVFUbwwxuwA+Kqqj2MDFm7DNE2vA9i01u7GvttP55+b71U6NuXe6u9vAAAAAElFTkSuQmCC");
+}
+.iowo-adv__timer {
+   position: absolute;
+   bottom:5px;
+   left:5px;
+   min-width: 60px;
+   padding: 3px;
+   color: #aaaaaa;
+   border-radius: 5px;
+   font-family: sans-serif;
+   text-align: center;
+   background-color:black;
+   z-index:10;
+}
+.iowo-timeline {
+   position: absolute;
+   bottom:0;
+   left:0;
+   width: 100%;
+   height: 5px;
+   background-color: rgba(0, 0, 0, 0.2);
+   z-index:10;
+}
+.iowo-timeline__runner {
+   position: relative;
+   height: 5px;
+   background-color: red;
+   -moz-transition: .5s;
+   -ms-transition: .5s;
+   -o-transition: .5s;
+   -webkit-transition: .5s;
+   transition: .5s;
+   transition-property: max-width;
+}</style><script src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/ima3.js.download"></script><link rel="preload" href="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/f.txt" as="script"><script type="text/javascript" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/f.txt"></script></head>
+
+	<body class="post-template-default single single-post postid-276 single-format-standard mp6 customizer-styles-applied highlander-enabled highlander-light">
+		<div id="page" class="hfeed site">
+
+			<header id="masthead" class="site-header" role="banner">
+				<div class="site-branding">
+										<h1 class="site-title"><a href="https://obitvn.wordpress.com/" rel="home">Obit team</a></h1>
+					<h2 class="site-description">arm/stm32/avr/arduino/ble/bluetooth/stm32f4/efm/efr/</h2>
+				</div>
+
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+					<a class="menu-toggle">Menu</a>
+					<a class="skip-link screen-reader-text" href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#content">Bỏ qua nội dung</a>
+
+					<div class="menu-primary-container"><ul id="menu-primary" class="apostrophe-2-navigation"><li id="menu-item-12" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-12"><a href="https://obitvn.wordpress.com/home/">Home</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13"><a href="https://obitvn.wordpress.com/about/">About</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14"><a href="https://obitvn.wordpress.com/contact/">Contact</a></li>
+<li id="menu-item-15" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-15"><a href="https://obitvn.wordpress.com/blog/">Blog</a></li>
+</ul></div>
+					
+				</nav><!-- #site-navigation -->
+			</header><!-- #masthead -->
+
+			<div id="content" class="site-content">
+
+	<section id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			<article id="post-276">
+	
+	<div class="entry-meta"><span class="posted-on"><a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/" rel="bookmark"><time class="entry-date published" datetime="2018-07-31T20:30:27+00:00">Tháng Bảy 31, 2018</time><time class="updated" datetime="2018-08-06T10:27:02+00:00">Tháng Tám 6, 2018</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://obitvn.wordpress.com/author/myelectricblog/">Chu Tien Thinh</a></span></span></div>
+		<h1 class="entry-title">
+		[Chia sẻ full file Altium, hex]  Mạch nạp J-Link OB theo chuẩn JTAG	</h1>
+
+	<div class="entry-content">
+		<p>Mấy bạn lập trình các dòng chip lõi ARM, có lẽ đều đã nghe qua hoặc sử dụng mạch nạp J_LINK, ông trùm trong giới mạch nạp/debug lõi ARM và một số dòng chip khác. Hiện nay J-LINK đã có đến phiên bản V10, hỗ trợ hàng loạt dòng vi điều khiển khác nhau. J_LINK là một giải pháp tuyệt vời cho anh em nghiên cứu, sản xuất hay học tập, ngoại trừ cái giá của nó (60$ cho phiên bản học tập, không dùng cho sản xuất). Nó thực sự khá đắt so với túi tiền của các bạn sinh viên, hay người thích nghiên cứu.</p>
+<p>Bởi vậy, chúng ta cần tìm một giải pháp khác. Ở đây, mình sẽ giới thiệu tới bạn một phiên bản giá rẻ hơn của J-LINK, J_LINK OB. Đây là phiên bản clone (sao chép) J_LINK OB bản chính hãng, không khuyến khích, nhưng đây hoàn toàn là một giải pháp tốt với các bạn mới tìm hiểu và sử dụng J_LINK, vì giá của nó chỉ khoảng 100.000VND. Rất rẻ, hợp với túi tiền sinh viên.</p>
+<p>Để sử dụng được mạch, bạn tìm tới file hex được gửi trong tệp đính kèm, nạp code. Sau đó, khởi chạy phần mềm jlink được đính kèm</p>
+<p><img data-attachment-id="277" data-permalink="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/jlink-exe/" data-orig-file="https://obitvn.files.wordpress.com/2018/07/jlink-exe.png?w=723" data-orig-size="898,686" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="jlink exe" data-image-description="" data-medium-file="https://obitvn.files.wordpress.com/2018/07/jlink-exe.png?w=723?w=300" data-large-file="https://obitvn.files.wordpress.com/2018/07/jlink-exe.png?w=723?w=723" class="alignnone size-full wp-image-277" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/jlink-exe.png" alt="jlink exe" srcset="https://obitvn.files.wordpress.com/2018/07/jlink-exe.png?w=723 723w, https://obitvn.files.wordpress.com/2018/07/jlink-exe.png?w=150 150w, https://obitvn.files.wordpress.com/2018/07/jlink-exe.png?w=300 300w, https://obitvn.files.wordpress.com/2018/07/jlink-exe.png?w=768 768w, https://obitvn.files.wordpress.com/2018/07/jlink-exe.png 898w" sizes="(max-width: 723px) 100vw, 723px"></p>
+<p>phần mềm sẽ yêu cầu update mạch nạp, bạn chọn update là có thể sử dụng. Test thử mạch nạp, ta có kết quả như sau:</p>
+<div class="tiled-gallery type-rectangular" data-original-width="723" data-carousel-extra="{&quot;blog_id&quot;:121781413,&quot;permalink&quot;:&quot;https:\/\/obitvn.wordpress.com\/2018\/07\/31\/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag\/&quot;,&quot;likes_blog_id&quot;:121781413}" itemscope="" itemtype="http://schema.org/ImageGallery"> <div class="gallery-row" style="width: 722px; height: 256px;" data-original-width="723" data-original-height="257"> <div class="gallery-group images-1" style="width: 722px; height: 256px;" data-original-width="723" data-original-height="257"> <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"> <a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/jlink-check/" border="0" itemprop="url"> <meta itemprop="width" content="719"> <meta itemprop="height" content="253"> <img data-attachment-id="278" data-orig-file="https://obitvn.files.wordpress.com/2018/07/jlink-check.png" data-orig-size="1047,368" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="jlink check" data-image-description="" data-medium-file="https://obitvn.files.wordpress.com/2018/07/jlink-check.png?w=300" data-large-file="https://obitvn.files.wordpress.com/2018/07/jlink-check.png?w=723" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/jlink-check.png" width="719" height="253" data-original-width="719" data-original-height="253" itemprop="http://schema.org/image" title="jlink check" alt="jlink check" style="width: 718px; height: 252px;"> </a> </div> </div> <!-- close group --> </div> <!-- close row --> <div class="gallery-row" style="width: 722px; height: 264px;" data-original-width="723" data-original-height="265"> <div class="gallery-group images-1" style="width: 345px; height: 264px;" data-original-width="346" data-original-height="265"> <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"> <a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/jlink-exe-2/" border="0" itemprop="url"> <meta itemprop="width" content="342"> <meta itemprop="height" content="261"> <img data-attachment-id="279" data-orig-file="https://obitvn.files.wordpress.com/2018/07/jlink-exe1.png" data-orig-size="898,686" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="jlink exe" data-image-description="" data-medium-file="https://obitvn.files.wordpress.com/2018/07/jlink-exe1.png?w=300" data-large-file="https://obitvn.files.wordpress.com/2018/07/jlink-exe1.png?w=723" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/jlink-exe1.png" width="342" height="261" data-original-width="342" data-original-height="261" itemprop="http://schema.org/image" title="jlink exe" alt="jlink exe" style="width: 341px; height: 260px;"> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 376px; height: 264px;" data-original-width="377" data-original-height="265"> <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"> <a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/jlink-test/" border="0" itemprop="url"> <meta itemprop="width" content="373"> <meta itemprop="height" content="261"> <img data-attachment-id="280" data-orig-file="https://obitvn.files.wordpress.com/2018/07/jlink-test.png" data-orig-size="935,655" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="jlink test" data-image-description="" data-medium-file="https://obitvn.files.wordpress.com/2018/07/jlink-test.png?w=300" data-large-file="https://obitvn.files.wordpress.com/2018/07/jlink-test.png?w=723" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/jlink-test.png" width="373" height="261" data-original-width="373" data-original-height="261" itemprop="http://schema.org/image" title="jlink test" alt="jlink test" style="width: 372px; height: 260px;"> </a> </div> </div> <!-- close group --> </div> <!-- close row --> </div>
+<p>vậy là hoàn thành, ta đã có mạch nạp jlink giá rẻ để sử dụng.</p>
+<p>Toàn bộ file cần thiết các bạn tải <a href="https://drive.google.com/open?id=19nOXbc-gHxeqSsCk4daYGruJpA_CR8kD">tại đây</a>. Trong tệp đã bao gồm file nguyên lý, pcb, code, phần mềm. Thiết kế là miễn phí, các bạn hoàn toàn có thể sản xuất, thương mại mạch nạp này. Tuy nhiên, xin vui lòng để lại logo Obit team trên thân mạch nạp để tôn trọng tác giả.</p>
+<div class="tiled-gallery type-rectangular" data-original-width="723" data-carousel-extra="{&quot;blog_id&quot;:121781413,&quot;permalink&quot;:&quot;https:\/\/obitvn.wordpress.com\/2018\/07\/31\/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag\/&quot;,&quot;likes_blog_id&quot;:121781413}" itemscope="" itemtype="http://schema.org/ImageGallery"> <div class="gallery-row" style="width: 722px; height: 271px;" data-original-width="723" data-original-height="272"> <div class="gallery-group images-1" style="width: 361px; height: 271px;" data-original-width="362" data-original-height="272"> <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"> <a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/jlink-back/" border="0" itemprop="url"> <meta itemprop="width" content="358"> <meta itemprop="height" content="268"> <img data-attachment-id="281" data-orig-file="https://obitvn.files.wordpress.com/2018/07/jlink-back.jpg" data-orig-size="960,720" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="jlink back" data-image-description="" data-medium-file="https://obitvn.files.wordpress.com/2018/07/jlink-back.jpg?w=300" data-large-file="https://obitvn.files.wordpress.com/2018/07/jlink-back.jpg?w=723" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/jlink-back.jpg" width="358" height="268" data-original-width="358" data-original-height="268" itemprop="http://schema.org/image" title="jlink back" alt="jlink back" style="width: 357px; height: 267px;"> </a> </div> </div> <!-- close group --> <div class="gallery-group images-1" style="width: 360px; height: 271px;" data-original-width="361" data-original-height="272"> <div class="tiled-gallery-item tiled-gallery-item-large" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"> <a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/jlink-font/" border="0" itemprop="url"> <meta itemprop="width" content="357"> <meta itemprop="height" content="268"> <img data-attachment-id="282" data-orig-file="https://obitvn.files.wordpress.com/2018/07/jlink-font.jpg" data-orig-size="960,720" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="jlink font" data-image-description="" data-medium-file="https://obitvn.files.wordpress.com/2018/07/jlink-font.jpg?w=300" data-large-file="https://obitvn.files.wordpress.com/2018/07/jlink-font.jpg?w=723" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/jlink-font.jpg" width="357" height="268" data-original-width="357" data-original-height="268" itemprop="http://schema.org/image" title="jlink font" alt="jlink font" style="width: 356px; height: 267px;"> </a> </div> </div> <!-- close group --> </div> <!-- close row --> </div>
+<p>Cập nhật, phiên bản J_LINK OB hỗ trợ usb uart và DAP_LINK các bạn có thể tải <a href="https://github.com/JassyL">tại đây</a>&nbsp;.<br>
+Cảm ơn bạn <a href="https://www.facebook.com/viettiepn">Việt Tiệp Nguyễn</a>&nbsp;vì thông tin này. Tuy nhiên, mình chưa test thử hai mạch này.</p>
+<p>&nbsp;</p>
+<div id="atatags-370373-5bb8fa6351426">
+        <script type="text/javascript">
+            __ATA.cmd.push(function() {
+                __ATA.initVideoSlot('atatags-370373-5bb8fa6351426', {
+                    sectionId: '370373',
+                    format: 'inread'
+                });
+            });
+        </script>
+    </div>		<div class="wpcnt">
+			<div class="wpa wpmrec">
+				<span class="wpa-about">Advertisements</span>
+				<div class="u">		<div style="padding-bottom:15px;width:300px;height:250px;float:left;margin-right:5px;margin-top:0px">
+		<div id="atatags-26942-5bb8fa635144e" style="width: auto; height: auto;"><div style="width: 300px; height: 250px;"><iframe frameborder="0" scrolling="no" width="300" height="250" style="margin:0;border:none;overflow:hidden;width:300px;height:250px;" __idm_frm__="3415" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/saved_resource(16).html"></iframe></div><div id="atatags-26942-5bb8fa635144e__controls" class="ata-controls" style="width:300px;height:10px;"><span id="atatags-26942-5bb8fa635144e__complain-btn" class="ata-controls__complain-btn" style="display: inline;">Report this ad</span></div></div></div>		<div style="padding-bottom:15px;width:300px;height:250px;float:left;margin-top:0px">
+		<div id="atatags-114160-5bb8fa6351450" style="width: auto; height: auto;"><div style="width: 300px; height: 250px;"><iframe frameborder="0" scrolling="no" width="300" height="250" style="margin:0;border:none;overflow:hidden;width:300px;height:250px;" __idm_frm__="3416" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/saved_resource(17).html"></iframe></div><div id="atatags-114160-5bb8fa6351450__controls" class="ata-controls" style="width:300px;height:10px;"><span id="atatags-114160-5bb8fa6351450__complain-btn" class="ata-controls__complain-btn" style="display: inline;">Report this ad</span></div></div></div></div>
+				
+			</div>
+		</div><div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow noopener noreferrer" data-shared="sharing-twitter-276" class="share-twitter sd-button share-icon" href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/?share=twitter&amp;nb=1" target="_blank" title="Nhấn để chia sẻ trên Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow noopener noreferrer" data-shared="sharing-facebook-276" class="share-facebook sd-button share-icon" href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/?share=facebook&amp;nb=1" target="_blank" title="Click to share on Facebook"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow noopener noreferrer" data-shared="sharing-google-276" class="share-google-plus-1 sd-button share-icon" href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/?share=google-plus-1&amp;nb=1" target="_blank" title="Nhấn để chia sẻ trên Google+"><span>Google</span></a></li><li><a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#" class="sharing-anchor sd-button share-more"><span>Thêm</span></a></li><li class="share-end"></li></ul><div class="sharing-hidden"><div class="inner" style="display: none; width: 150px;"><ul style="background-image:none;"><li class="share-email share-service-visible"><a rel="nofollow noopener noreferrer" data-shared="" class="share-email sd-button share-icon" href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/?share=email&amp;nb=1" target="_blank" title="Click to email this to a friend"><span>Thư điện tử</span></a></li><li class="share-end"></li></ul></div></div></div></div></div><div class="sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-loaded" id="like-post-wrapper-121781413-276-5bb8fa6356185" data-src="//widgets.wp.com/likes/index.html?ver=20180319#blog_id=121781413&amp;post_id=276&amp;origin=obitvn.wordpress.com&amp;obj_id=121781413-276-5bb8fa6356185" data-name="like-post-frame-121781413-276-5bb8fa6356185"><h3 class="sd-title">Like this:</h3><div class="likes-widget-placeholder post-likes-widget-placeholder" style="height: 55px; display: none;"><span class="button"><span>Số lượt thích</span></span> <span class="loading">Đang tải...</span></div><iframe class="post-likes-widget jetpack-likes-widget" name="like-post-frame-121781413-276-5bb8fa6356185" height="55px" width="100%" frameborder="0" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/index.html"></iframe><span class="sd-text-color"></span><a class="sd-link-color"></a></div>
+<div id="jp-relatedposts" class="jp-relatedposts" style="display: block;">
+	
+<div class="jp-relatedposts-items jp-relatedposts-items-minimal"><p class="jp-relatedposts-post jp-relatedposts-post0" data-post-id="359" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://obitvn.wordpress.com/2018/09/21/stm32f1-hal-giao-tiep-i2c-luu-tru-du-lieu-len-eeprom-24cxx/" title="[STM32F1-HAL] Giao tiếp I2C - Lưu trữ dữ liệu lên eeprom 24cxx
+
+Tại sao phải lưu dữ liệu lên eeprom ngoại? STM32 cũng hỗ trợ lưu dữ liệu lên flash mà???? Dĩ nhiên chúng ta có thể lưu dữ liệu trực tiếp bên trong chip STM32F1. Tuy nhiên, dòng STM32F1 tồn tại một vấn đề khá là ngốc nghếch. Flash STM32F1 được quản…" rel="nofollow" data-origin="276" data-position="0">[STM32F1-HAL] Giao tiếp I2C - Lưu trữ dữ liệu lên eeprom 24cxx</a></span><span class="jp-relatedposts-post-context">In "STM32"</span></p><p class="jp-relatedposts-post jp-relatedposts-post1" data-post-id="333" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://obitvn.wordpress.com/2018/08/23/them-bo-dem-cho-giao-tiep-i2c/" title="Thêm bộ đệm cho giao tiếp I2C
+
+Bài viết này thảo luận về các trường hợp sử dụng, lợi ích và các ứng dụng sử dụng bộ đệm I2C. Trong tất cả các chuẩn giao tiếp được sử dụng cho các thiết bị nhúng, I2C là một giao thức ưa thích của tôi. Mặc dù băng thông,…" rel="nofollow" data-origin="276" data-position="1">Thêm bộ đệm cho giao tiếp I2C</a></span><span class="jp-relatedposts-post-context">In "Dự án nhúng"</span></p><p class="jp-relatedposts-post jp-relatedposts-post2" data-post-id="305" data-post-format="false"><span class="jp-relatedposts-post-title"><a class="jp-relatedposts-post-a" href="https://obitvn.wordpress.com/2018/08/12/thiet-ke-he-thong-nhung-la-gi/" title="Thiết kế hệ thống nhúng là gì?
+
+Chúc các bạn thành công" rel="nofollow" data-origin="276" data-position="2">Thiết kế hệ thống nhúng là gì?</a></span><span class="jp-relatedposts-post-context">In "Dự án nhúng"</span></p></div></div></div>			</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<div class="apostrophe-2-tags"><ul class="post-categories">
+	<li><a href="https://obitvn.wordpress.com/category/arm/" rel="category tag">ARM</a></li>
+	<li><a href="https://obitvn.wordpress.com/category/stm32/" rel="category tag">STM32</a></li></ul><ul class="post-tags"><li><a href="https://obitvn.wordpress.com/tag/arm/" rel="tag">ARM</a></li><li><a href="https://obitvn.wordpress.com/tag/stm32/" rel="tag">STM32</a></li></ul></div>	<div class="entry-author author-avatar-show">
+				<div class="author-avatar">
+			<img alt="" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/64e4d571421b99538a0e0c4abb9a7848" class="avatar avatar-125 grav-hashed grav-hijack" height="125" width="125" id="grav-64e4d571421b99538a0e0c4abb9a7848-0">		</div><!-- .author-avatar -->
+		
+		<div class="author-heading">
+			<h2 class="author-title">Published by <span class="author-name">Chu Tien Thinh</span></h2>
+		</div><!-- .author-heading -->
+
+		<p class="author-bio">
+			Tôi là một con người đam mê điện tử, lập trình và thích khám phá thế giới.			<a class="author-link" href="https://obitvn.wordpress.com/author/myelectricblog/" rel="author">
+				Xem tất cả bài viết bằng Chu Tien Thinh			</a>
+		</p><!-- .author-bio -->
+	</div><!-- .entry-auhtor -->
+		
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Điều hướng bài viết</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://obitvn.wordpress.com/2018/07/16/thay-the-opto-chung-ta-co-gi/" rel="prev"><span class="meta-nav">Previous</span> Cách ly sử dụng Opto đã lỗi thời?</a></div><div class="nav-next"><a href="https://obitvn.wordpress.com/2018/08/01/robot-do-line-su-dung-arduino-uno-r3/" rel="next"><span class="meta-nav">Next</span> Robot dò line sử dụng arduino uno r3</a></div></div>
+	</nav>	</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+			
+<div id="comments" class="comments-area">
+
+	
+	
+	
+		<div id="respond" class="comment-respond js">
+		<h3 id="reply-title" class="comment-reply-title">Trả lời <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#respond" style="display:none;">Hủy trả lời</a></small></h3>			<form action="https://obitvn.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate="">
+				<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="5050d22364"><input type="hidden" name="_wp_http_referer" value="/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/">
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest">
+
+<div class="comment-form-field comment-textarea">
+	
+	<div id="comment-form-comment"><textarea tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px; padding: 0px; box-sizing: content-box; overflow-wrap: break-word; overflow: hidden; transition: none 0s ease 0s; height: 0px !important; min-height: 0px !important; font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; text-decoration: none solid rgba(0, 0, 0, 0.7); word-spacing: 0px; text-indent: 0px; line-height: 14px; width: 699.531px;" class="autosizejs "></textarea><textarea id="comment" name="comment" title="Nhập bình luận của bạn tại đây..." placeholder="Nhập bình luận của bạn tại đây..." style="height: 35px; overflow: hidden; overflow-wrap: break-word; resize: none;"></textarea></div>
+</div>
+
+<div id="comment-form-identity" style="display: none;">
+	<div id="comment-form-nascar">
+		<p>Mời bạn điền thông tin vào ô dưới đây hoặc kích vào một biểu tượng để đăng nhập:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#comment-form-guest" id="postas-guest" class="nascar-signin-link" title="Login via Guest">
+									</a>
+			</li>
+			<li>
+				<a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#comment-form-load-service:WordPress.com" id="postas-wordpress" class="nascar-signin-link" title="Login via WordPress.com">
+					<svg xmlns="http://www.w3.org/2000/svg" role="presentation" viewBox="0 0 24 24"><rect x="0" fill="none" width="24" height="24"></rect><g><path fill="#0087be" d="M12.158 12.786l-2.698 7.84c.806.236 1.657.365 2.54.365 1.047 0 2.05-.18 2.986-.51-.024-.037-.046-.078-.065-.123l-2.762-7.57zM3.008 12c0 3.56 2.07 6.634 5.068 8.092L3.788 8.342c-.5 1.117-.78 2.354-.78 3.658zm15.06-.454c0-1.112-.398-1.88-.74-2.48-.456-.74-.883-1.368-.883-2.11 0-.825.627-1.595 1.51-1.595.04 0 .078.006.116.008-1.598-1.464-3.73-2.36-6.07-2.36-3.14 0-5.904 1.613-7.512 4.053.21.008.41.012.58.012.94 0 2.395-.114 2.395-.114.484-.028.54.684.057.74 0 0-.487.058-1.03.086l3.275 9.74 1.968-5.902-1.4-3.838c-.485-.028-.944-.085-.944-.085-.486-.03-.43-.77.056-.742 0 0 1.484.114 2.368.114.94 0 2.397-.114 2.397-.114.486-.028.543.684.058.74 0 0-.488.058-1.03.086l3.25 9.665.897-2.997c.456-1.17.684-2.137.684-2.907zm1.82-3.86c.04.286.06.593.06.924 0 .912-.17 1.938-.683 3.22l-2.746 7.94c2.672-1.558 4.47-4.454 4.47-7.77 0-1.564-.4-3.033-1.1-4.314zM12 22C6.486 22 2 17.514 2 12S6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"></path></g></svg>				</a>
+			</li>
+			<li>
+			<iframe id="googleplus-sign-in" name="googleplus-sign-in" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/saved_resource(18).html" width="24" height="24" scrolling="no" allowtransparency="true" seamless="seamless" frameborder="0"></iframe>
+			</li>
+			<li>
+				<a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#comment-form-load-service:Twitter" id="postas-twitter" class="nascar-signin-link" title="Login via Twitter">
+					<svg xmlns="http://www.w3.org/2000/svg" role="presentation" viewBox="0 0 24 24"><rect x="0" fill="none" width="24" height="24"></rect><g><path fill="#1DA1F2" d="M22.23 5.924c-.736.326-1.527.547-2.357.646.847-.508 1.498-1.312 1.804-2.27-.793.47-1.67.812-2.606.996C18.325 4.498 17.258 4 16.078 4c-2.266 0-4.103 1.837-4.103 4.103 0 .322.036.635.106.935-3.41-.17-6.433-1.804-8.457-4.287-.353.607-.556 1.312-.556 2.064 0 1.424.724 2.68 1.825 3.415-.673-.022-1.305-.207-1.86-.514v.052c0 1.988 1.415 3.647 3.293 4.023-.344.095-.707.145-1.08.145-.265 0-.522-.026-.773-.074.522 1.63 2.038 2.817 3.833 2.85-1.404 1.1-3.174 1.757-5.096 1.757-.332 0-.66-.02-.98-.057 1.816 1.164 3.973 1.843 6.29 1.843 7.547 0 11.675-6.252 11.675-11.675 0-.178-.004-.355-.012-.53.802-.578 1.497-1.3 2.047-2.124z"></path></g></svg>				</a>
+			</li>
+			<li>
+				<a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#comment-form-load-service:Facebook" id="postas-facebook" class="nascar-signin-link" title="Login via Facebook">
+					<svg xmlns="http://www.w3.org/2000/svg" role="presentation" viewBox="0 0 24 24"><rect x="0" fill="none" width="24" height="24"></rect><g><path fill="#3B5998" d="M20.007 3H3.993C3.445 3 3 3.445 3 3.993v16.013c0 .55.445.994.993.994h8.62v-6.97H10.27V11.31h2.346V9.31c0-2.325 1.42-3.59 3.494-3.59.993 0 1.847.073 2.096.106v2.43h-1.438c-1.128 0-1.346.537-1.346 1.324v1.734h2.69l-.35 2.717h-2.34V21h4.587c.548 0 .993-.445.993-.993V3.993c0-.548-.445-.993-.993-.993z"></path></g></svg>				</a>
+			</li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/ad516503a11cd5ca435acc9bb6523536" alt="Gravatar" width="25" class="no-grav">
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Thư điện tử <span class="required">(bắt buộc)</span> <span class="nopublish">(Địa chỉ của bạn được giấu kín)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Tên <span class="required">(bắt buộc)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value=""></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Trang web</label>
+					<div class="comment-form-input"><input id="url" name="url" type="url" value=""></div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/ad516503a11cd5ca435acc9bb6523536" alt="WordPress.com Logo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="">
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="">
+						<p class="comment-form-posting-as pa-wordpress">
+			<strong></strong>
+			Bạn đang bình luận bằng tài khoản <span class="skimlinks-unlinked">WordPress.com</span>			<span class="comment-form-log-out">
+				(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( &#39;wordpress&#39; );">Đăng xuất</a>&nbsp;/&nbsp;
+				<a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#" onclick="javascript:HighlanderComments.switchAccount();return false;">Thay đổi</a>&nbsp;)
+			</span>
+			<span class="pa-icon"><svg xmlns="http://www.w3.org/2000/svg" role="presentation" viewBox="0 0 24 24"><rect x="0" fill="none" width="24" height="24"></rect><g><path fill="#0087be" d="M12.158 12.786l-2.698 7.84c.806.236 1.657.365 2.54.365 1.047 0 2.05-.18 2.986-.51-.024-.037-.046-.078-.065-.123l-2.762-7.57zM3.008 12c0 3.56 2.07 6.634 5.068 8.092L3.788 8.342c-.5 1.117-.78 2.354-.78 3.658zm15.06-.454c0-1.112-.398-1.88-.74-2.48-.456-.74-.883-1.368-.883-2.11 0-.825.627-1.595 1.51-1.595.04 0 .078.006.116.008-1.598-1.464-3.73-2.36-6.07-2.36-3.14 0-5.904 1.613-7.512 4.053.21.008.41.012.58.012.94 0 2.395-.114 2.395-.114.484-.028.54.684.057.74 0 0-.487.058-1.03.086l3.275 9.74 1.968-5.902-1.4-3.838c-.485-.028-.944-.085-.944-.085-.486-.03-.43-.77.056-.742 0 0 1.484.114 2.368.114.94 0 2.397-.114 2.397-.114.486-.028.543.684.058.74 0 0-.488.058-1.03.086l3.25 9.665.897-2.997c.456-1.17.684-2.137.684-2.907zm1.82-3.86c.04.286.06.593.06.924 0 .912-.17 1.938-.683 3.22l-2.746 7.94c2.672-1.558 4.47-4.454 4.47-7.77 0-1.564-.4-3.033-1.1-4.314zM12 22C6.486 22 2 17.514 2 12S6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"></path></g></svg></span>
+		</p>
+					</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/ad516503a11cd5ca435acc9bb6523536" alt="Google+ photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="">
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="">
+						<p class="comment-form-posting-as pa-googleplus">
+			<strong></strong>
+			Bạn đang bình luận bằng tài khoản Google+			<span class="comment-form-log-out">
+				(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( &#39;googleplus&#39; );">Đăng xuất</a>&nbsp;/&nbsp;
+				<a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#" onclick="javascript:HighlanderComments.switchAccount();return false;">Thay đổi</a>&nbsp;)
+			</span>
+			<span class="pa-icon"><svg xmlns="http://www.w3.org/2000/svg" role="presentation" x="0px" y="0px" viewBox="0 0 60 60"><path fill="#519bf7" d="M56.3,30c0,-1.6 -0.2,-3.4 -0.6,-5h-3.1H42.2H30v10.6h14.8C44,39.3 42,42 39.1,43.9l8.8,6.8C53,46 56.3,39 56.3,30z"></path><path fill="#3db366" d="M30,57.5c6.7,0 13.1,-2.4 17.9,-6.8l-8.8,-6.8c-2.5,1.6 -5.6,2.4 -9.1,2.4c-7.2,0 -13.3,-4.7 -15.4,-11.2l-9.3,7.1C9.8,51.3 19.1,57.5 30,57.5z"></path><path fill="#fdc600" d="M5.3,42.2l9.3,-7.1c-0.5,-1.6 -0.8,-3.3 -0.8,-5.1s0.3,-3.5 0.8,-5.1l-9.3,-7.1C3.5,21.5 2.5,25.6 2.5,30S3.5,38.5 5.3,42.2z"></path><path fill="#f15b44" d="M40.1,17.4l8,-8C43.3,5.1 37,2.5 30,2.5C19.1,2.5 9.8,8.7 5.3,17.8l9.3,7.1c2.1,-6.5 8.2,-11.1 15.4,-11.1C33.9,13.7 37.4,15.1 40.1,17.4z"></path></svg></span>
+		</p>
+					</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/ad516503a11cd5ca435acc9bb6523536" alt="Twitter picture" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="">
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="">
+						<p class="comment-form-posting-as pa-twitter">
+			<strong></strong>
+			Bạn đang bình luận bằng tài khoản Twitter			<span class="comment-form-log-out">
+				(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( &#39;twitter&#39; );">Đăng xuất</a>&nbsp;/&nbsp;
+				<a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#" onclick="javascript:HighlanderComments.switchAccount();return false;">Thay đổi</a>&nbsp;)
+			</span>
+			<span class="pa-icon"><svg xmlns="http://www.w3.org/2000/svg" role="presentation" viewBox="0 0 24 24"><rect x="0" fill="none" width="24" height="24"></rect><g><path fill="#1DA1F2" d="M22.23 5.924c-.736.326-1.527.547-2.357.646.847-.508 1.498-1.312 1.804-2.27-.793.47-1.67.812-2.606.996C18.325 4.498 17.258 4 16.078 4c-2.266 0-4.103 1.837-4.103 4.103 0 .322.036.635.106.935-3.41-.17-6.433-1.804-8.457-4.287-.353.607-.556 1.312-.556 2.064 0 1.424.724 2.68 1.825 3.415-.673-.022-1.305-.207-1.86-.514v.052c0 1.988 1.415 3.647 3.293 4.023-.344.095-.707.145-1.08.145-.265 0-.522-.026-.773-.074.522 1.63 2.038 2.817 3.833 2.85-1.404 1.1-3.174 1.757-5.096 1.757-.332 0-.66-.02-.98-.057 1.816 1.164 3.973 1.843 6.29 1.843 7.547 0 11.675-6.252 11.675-11.675 0-.178-.004-.355-.012-.53.802-.578 1.497-1.3 2.047-2.124z"></path></g></svg></span>
+		</p>
+					</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/ad516503a11cd5ca435acc9bb6523536" alt="Facebook photo" width="25" class="no-grav">
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="">
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="">
+						<p class="comment-form-posting-as pa-facebook">
+			<strong></strong>
+			Bạn đang bình luận bằng tài khoản Facebook			<span class="comment-form-log-out">
+				(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( &#39;facebook&#39; );">Đăng xuất</a>&nbsp;/&nbsp;
+				<a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#" onclick="javascript:HighlanderComments.switchAccount();return false;">Thay đổi</a>&nbsp;)
+			</span>
+			<span class="pa-icon"><svg xmlns="http://www.w3.org/2000/svg" role="presentation" viewBox="0 0 24 24"><rect x="0" fill="none" width="24" height="24"></rect><g><path fill="#3B5998" d="M20.007 3H3.993C3.445 3 3 3.445 3 3.993v16.013c0 .55.445.994.993.994h8.62v-6.97H10.27V11.31h2.346V9.31c0-2.325 1.42-3.59 3.494-3.59.993 0 1.847.073 2.096.106v2.43h-1.438c-1.128 0-1.346.537-1.346 1.324v1.734h2.69l-.35 2.717h-2.34V21h4.587c.548 0 .993-.445.993-.993V3.993c0-.548-.445-.993-.993-.993z"></path></g></svg></span>
+		</p>
+					</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Hủy bỏ</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe" style="display: none;">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Notify me of new comments via email.</label></p></div>
+
+
+
+
+<p class="form-submit" style="display: none;"><input name="submit" type="submit" id="comment-submit" class="submit" value="Gửi bình luận"> <input type="hidden" name="comment_post_ID" value="276" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="1d5fc48769"></p>
+<input type="hidden" name="genseq" value="1538849379">
+<p style="display: none;"></p>			<input type="hidden" id="ak_js" name="ak_js" value="1538849380638"></form>
+			</div><!-- #respond -->
+	<div style="clear: both"></div>
+</div><!-- #comments -->
+
+		
+		</main><!-- #main -->
+	</section><!-- #primary -->
+
+	<div id="secondary" class="widget-area" role="complementary">
+
+				<div class="sidebar-primary">
+			<aside id="search-1" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://obitvn.wordpress.com/">
+				<label>
+					<span class="screen-reader-text">Tìm kiếm cho:</span>
+					<input type="search" class="search-field" placeholder="Tìm kiếm …" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Tìm kiếm">
+			</form></aside><aside id="widget_contact_info-1" class="widget widget_contact_info"><h2 class="widget-title">Our Location</h2><div itemscope="" itemtype="http://schema.org/LocalBusiness"><div class="contact-map-container"><iframe width="600" height="216" frameborder="0" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/place.html" class="contact-map"></iframe><div class="contact-map-distractor"></div></div><div class="confit-address" itemscope="" itemtype="http://schema.org/PostalAddress" itemprop="address"><a href="http://maps.google.com/maps?z=16&amp;q=1-4+langley+court+london+wc2e+9jy+united+kingdom" target="_blank">1-4 Langley Court
+<br>London WC2E 9JY
+<br>United Kingdom</a></div><div class="confit-phone"><span itemprop="telephone">0102030456789</span></div></div></aside>		<div class="wpcnt">
+			<div class="wpa wpwidesky">
+				<span class="wpa-about">Advertisements</span>
+				<div class="u">
+							<div style="padding-bottom:15px;width:160px;height:600px;">
+		<div id="atatags-286348-5bb8fa6358273" style="width: auto; height: auto;"><div style="width: 160px; height: 600px;"><iframe frameborder="0" scrolling="no" width="160" height="600" style="margin:0;border:none;overflow:hidden;width:160px;height:600px;" __idm_frm__="3417" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/saved_resource(19).html"></iframe></div><div id="atatags-286348-5bb8fa6358273__controls" class="ata-controls" style="width:160px;height:10px;"><span id="atatags-286348-5bb8fa6358273__complain-btn" class="ata-controls__complain-btn" style="display: inline;">Report this ad</span></div></div></div>
+				</div>
+				
+			</div>
+		</div>		</div>
+		
+		
+		
+	</div><!-- #secondary -->
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+
+		
+		<div class="site-info">
+			<a href="https://vi.wordpress.com/?ref=footer_custom_com">WordPress.com</a>.
+			
+					</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!--  -->
+<script type="text/javascript" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/gprofiles.js.download"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/wpgroho.js.download"></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	<div class="grofile-hash-map-64e4d571421b99538a0e0c4abb9a7848">
+	</div>
+	</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"\u0110\u0103ng b\u00ecnh lu\u1eadn\u2026","postCommentText":"G\u1eedi b\u00ecnh lu\u1eadn","connectingToText":"Connecting to %s","commentingAsText":"%1$s: B\u1ea1n \u0111ang b\u00ecnh lu\u1eadn b\u1eb1ng t\u00e0i kho\u1ea3n %2$s","logoutText":"\u0110i ra kh\u1ecfi nh\u00e0 THchansan","loginText":"\u0110\u0103ng nh\u1eadp","connectURL":"https:\/\/obitvn.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/obitvn.wordpress.com\/wp-login.php?action=logout&_wpnonce=59ec073ec1","homeURL":"https:\/\/obitvn.wordpress.com\/","postID":"276","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Xin vui l\u00f2ng \u0111i\u1ec1n \u0111\u1ecba ch\u1ec9 email c\u1ee7a b\u1ea1n","invalidEmailError":"Invalid email address","enterAuthorError":"Xin vui l\u00f2ng \u0111i\u1ec1n t\u00ean c\u1ee7a b\u1ea1n","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"\u0110\u0103ng nh\u1eadp \u0111\u1ec3 s\u1eed d\u1ee5ng th\u00f4ng tin t\u1eeb c\u00e1c t\u00e0i kho\u1ea3n sau","change":"Thay \u0111\u1ed5i","changeAccount":"Change Account","comment_registration":"0","userIsLoggedIn":"","isJetpack":"","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/saved_resource(7)"></script>
+
+	<div id="carousel-reblog-box">
+		<form action="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#" class="cancel">Hủy bỏ</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post">
+				<input type="hidden" id="carousel-reblog-blog-id" value="121781413">
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://obitvn.wordpress.com">
+				<input type="hidden" id="carousel-reblog-blog-title" value="Obit team">
+				<input type="hidden" id="carousel-reblog-post-url" value="">
+				<input type="hidden" id="carousel-reblog-post-title" value="">
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="b811cfbc37"><input type="hidden" name="_wp_http_referer" value="/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/">		</form>
+
+		<div class="arrow"></div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/obitvn.wordpress.com\/2018\/07\/31\/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag\/":276};
+	</script>
+					
+<link rel="stylesheet" id="all-css-0-3" href="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/jetpack-carousel.css" type="text/css" media="all">
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel="stylesheet" id="all-css-2-3" href="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/saved_resource(8)" type="text/css" media="all">
+<script type="text/javascript">
+/* <![CDATA[ */
+var comment_like_text = {"loading":"\u0110ang t\u1ea3i..."};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var screenReaderText = {"expand":"expand child menu","collapse":"collapse child menu"};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"121781413","siteName":"Obit team","siteURL":"http:\/\/obitvn.wordpress.com","icon":"<img alt='' src='https:\/\/obitvn.files.wordpress.com\/2018\/06\/cropped-obit-logo.png?w=50' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/apostrophe-2","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/obitvn.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fobitvn.wordpress.com%2F2018%2F07%2F31%2Fchia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag%2F","themeURL":"https:\/\/wordpress.com\/theme\/apostrophe-2\/","xhrURL":"https:\/\/obitvn.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"88f05132ea","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"ff02d9c9ef\" \/>","referer":"https:\/\/obitvn.wordpress.com\/2018\/07\/31\/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag\/","canFollow":"1","feedID":"87152145","statusMessage":"","customizeLink":"https:\/\/obitvn.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fobitvn.wordpress.com%2F2018%2F07%2F31%2Fchia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag%2F","postID":"276","shortlink":"https:\/\/wp.me\/p8eYUl-4s","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/obitvn.wordpress.com\/276","statsLink":"https:\/\/wordpress.com\/stats\/post\/276\/obitvn.wordpress.com","i18n":{"view":"View site","follow":"Theo d\u00f5i","following":"Following","edit":"Edit","login":"\u0110\u0103ng nh\u1eadp","signup":"\u0110\u0103ng k\u00fd","customize":"T\u00f9y ch\u1ec9nh","report":"Report this content","themeInfo":"Get theme: Apostrophe 2","shortlink":"Copy shortlink","copied":"\u0110\u00e3 sao ch\u00e9p","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"M\u1edf r\u1ed9ng","unfoldBar":"Expand this bar","editSubs":"Qu\u1ea3n l\u00fd s\u1ef1 \u0111\u0103ng k\u00ed theo d\u00f5i","viewReader":"Xem trang v\u1edbi t\u01b0 c\u00e1ch ng\u01b0\u1eddi \u0111\u1ecdc","viewReadPost":"View post in Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"Join 349 other followers","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/obitvn.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fobitvn.wordpress.com%2F2018%2F07%2F31%2Fchia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag%2F\">Log in now.<\/a>","stats":"Th\u1ed1ng k\u00ea"}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"vi","ajaxurl":"https:\/\/obitvn.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"380fbb84cf","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"B\u00ecnh lu\u1eadn","post_comment":"G\u1eedi b\u00ecnh lu\u1eadn","write_comment":"Write a Comment...","loading_comments":"\u0110ang t\u1ea3i B\u00ecnh lu\u1eadn...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","copyright":"Copyright","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/obitvn.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fobitvn.wordpress.com%2F2018%2F07%2F31%2Fchia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag%2F","blog_id":"121781413","meta_data":["camera","aperture","shutter_speed","focal_length","copyright"],"local_comments_commenting_as":"<fieldset><label for=\"email\">Th\u01b0 \u0111i\u1ec7n t\u1eed (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">T\u00ean (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Trang web<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=121781413&v=wpcom&tz=7&user_id=0&subd=obitvn","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/saved_resource(9)"></script><div class="widget widget_eu_cookie_law_widget" style="display: block;"><div class="hide-on-button ads-active" data-hide-timeout="30" data-consent-expiration="180" id="eu-cookie-law">
+	<form method="post">
+		<input type="submit" value="Close and accept" class="accept">
+
+		Privacy &amp; Cookies: This site uses cookies. By continuing to use this website, you agree to their use. <br>
+To find out more, including how to control cookies, see here:
+		<a href="https://automattic.com/cookies">
+			Cookie Policy		</a>
+ </form>
+</div>
+</div><div id="actionbar" class="actnbr-pub-apostrophe-2 actnbr-has-follow"><ul><li class="actnbr-btn actnbr-hidden"> 			    	<a class="actnbr-action actnbr-actn-follow" href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/"><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Theo dõi</span></a> 			    	<div class="actnbr-popover tip tip-top-left actnbr-notice"> 			    		<div class="tip-arrow"></div> 			    		<div class="tip-inner actnbr-follow-bubble"></div> 			    	</div> 			    </li><li class="actnbr-ellipsis actnbr-hidden"> 			  <svg class="gridicon gridicon__ellipsis" height="24" width="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><circle cx="5" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle></g></svg> 			  <div class="actnbr-popover tip tip-top-left actnbr-more"> 			  	<div class="tip-arrow"></div> 			  	<div class="tip-inner"> 				  <ul> 				    <li class="actnbr-sitename actnbr-hidden"><a href="http://obitvn.wordpress.com/"><img alt="" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/cropped-obit-logo.png" class="avatar avatar-50" height="50" width="50"> Obit team</a></li> 				   	<li class="actnbr-folded-customize actnbr-hidden"><a href="https://obitvn.wordpress.com/wp-admin/customize.php?url=https%3A%2F%2Fobitvn.wordpress.com%2F2018%2F07%2F31%2Fchia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag%2F"><svg class="gridicon gridicon__customize" height="20px" width="20px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M2 6c0-1.505.78-3.08 2-4 0 .845.69 2 2 2 1.657 0 3 1.343 3 3 0 .386-.08.752-.212 1.09.74.594 1.476 1.19 2.19 1.81L8.9 11.98c-.62-.716-1.214-1.454-1.807-2.192C6.753 9.92 6.387 10 6 10c-2.21 0-4-1.79-4-4zm12.152 6.848l1.34-1.34c.607.304 1.283.492 2.008.492 2.485 0 4.5-2.015 4.5-4.5 0-.725-.188-1.4-.493-2.007L18 9l-2-2 3.507-3.507C18.9 3.188 18.225 3 17.5 3 15.015 3 13 5.015 13 7.5c0 .725.188 1.4.493 2.007L3 20l2 2 6.848-6.848c1.885 1.928 3.874 3.753 5.977 5.45l1.425 1.148 1.5-1.5-1.15-1.425c-1.695-2.103-3.52-4.092-5.448-5.977z" data-reactid=".2.1.1:0.1b.0"></path></g></svg><span>Tùy chỉnh<span></span></span></a></li> 				    <li class="actnbr-folded-follow actnbr-hidden"><a class="actnbr-action actnbr-actn-follow" href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/"><svg class="gridicon gridicon__follow" height="24px" width="24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path d="M23 16v2h-3v3h-2v-3h-3v-2h3v-3h2v3h3zM20 2v9h-4v3h-3v4H4c-1.1 0-2-.9-2-2V2h18zM8 13v-1H4v1h4zm3-3H4v1h7v-1zm0-2H4v1h7V8zm7-4H4v2h14V4z"></path></g></svg><span>Theo dõi</span></a></li> 					<li class="actnbr-signup actnbr-hidden"><a href="https://wordpress.com/start/">Đăng ký</a></li> 				    <li class="actnbr-login actnbr-hidden"><a href="https://obitvn.wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fobitvn.wordpress.com%2F2018%2F07%2F31%2Fchia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag%2F">Đăng nhập</a></li> 				     				    <li class="actnbr-shortlink actnbr-hidden"><a href="https://wp.me/p8eYUl-4s">Copy shortlink</a></li> 				    <li class="flb-report actnbr-hidden"><a href="http://en.wordpress.com/abuse/">Report this content</a></li> 				     				     				    <li class="actnbr-subs actnbr-hidden"><a href="https://subscribe.wordpress.com/">Quản lý sự đăng kí theo dõi</a></li> 				    <li class="actnbr-fold actnbr-hidden"><a href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/">Mở rộng</a></li> 			      </ul> 			    </div> 		      </div> 		    </li> 	      </ul></div>
+<script type="text/javascript">
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-twitter', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-facebook', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+var windowOpen;
+			jQuery( document.body ).on( 'click', 'a.share-google-plus-1', function() {
+				// If there's another sharing window open, close it.
+				if ( 'undefined' !== typeof windowOpen ) {
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery( this ).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+</script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "obitvn.wordpress.com";
+	</script>
+	<script type="text/javascript" defer="" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/725X1342.skimlinks.js.download"></script>		<iframe src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/master.html" scrolling="no" id="likes-master" name="likes-master" style="display:none;"></iframe>
+		<div id="likes-other-gravatars"><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+<script src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/w.js.download" type="text/javascript" async="" defer=""></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'121781413','blog_tz':'7','user_lang':'vi','blog_lang':'vi','user_id':'0'}]);
+_stq.push(['view', {'blog':'121781413','v':'wpcom','tz':'7','user_id':'0','post':'276','subd':'obitvn'}]);
+_stq.push(['extra', {'crypt':'UE5XaGUuOTlwaD85flAmcm1mcmZsaDhkV11YdWFnNncxc1tjZG9XVXhRWXNzXz01bj9hWHN0cGV8RXRfSj1iYXMsQ0NYdXhLb3NNUFpjc01OTS1YVF1qNGd6cDZZMj9zJWxKOFFuRndrQVosaV8reSZscmFTZX50fC9zZGxOV1taRlV1NWtCcE5hWnJQWnl2S0xTP2ssMSVWYnBUKz9YYz9dN2lvM0grNVBqUi1CMEdEJUlIUzFWSC4tMnhrQlljQTMwSXM1MWwlbGZ+MDVmLjhCcS1qbVAvSjVIY2VZZmt2Z0lRLVJGdUI/LE1HJXR5V0lXJlUrY0J5NENVVDBBWVR2ZnlYdkNoUlNERzB4bVpBUzc3NW1yN1Ni'}]);
+_stq.push([ 'clickTrackerInit', '121781413', '276' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+
+
+<div class="comment-likes-overlay" style="display: none;"></div><div id="sharing_email" style="display: none;">
+		<form action="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="email" name="target_email" id="target_email" value="">
+
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="">
+
+				<label for="source_email">Your Email Address</label>
+				<input type="email" name="source_email" id="source_email" value="">
+
+						<input type="text" id="jetpack-source_f_name" name="source_f_name" class="input" value="" size="25" autocomplete="off" title="This field is for validation and should not be changed">
+			
+			<div class="g-recaptcha" data-sitekey="6LcmyE0UAAAAALID28yVNg7pFCodGaArJzHitez_" data-theme="light" data-type="image" data-tabindex="0"><div style="width: 304px; height: 78px;"><div><iframe src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/anchor.html" width="304" height="78" role="presentation" name="a-nzem1kr15w4o" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
+			<script type="text/javascript" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/api.js.download" async=""></script>
+			
+			<img style="float: right; display: none" class="loading" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/loading.gif" alt="loading" width="16" height="16">
+			<input type="submit" value="Send Email" class="sharing_send">
+			<a rel="nofollow" href="https://obitvn.wordpress.com/2018/07/31/chia-se-full-file-altium-hex-mach-nap-j-link-ob-theo-chuan-jtag/#cancel" class="sharing_cancel">Hủy bỏ</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div><img src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/g.gif" alt=":)" id="wpstats"><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="hình xác thực recaptcha" src="./[Chia sẻ full file Altium, hex] Mạch nạp J-Link OB theo chuẩn JTAG – Obit team_files/bframe.html" name="c-nzem1kr15w4o" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div></div></body></html>

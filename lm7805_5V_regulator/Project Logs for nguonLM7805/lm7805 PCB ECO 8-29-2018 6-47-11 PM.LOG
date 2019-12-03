@@ -1,0 +1,4 @@
+Added Component: Designator=P2(DOMINO 2- 5mm)
+Added Pin To Net: NetName=12VDC Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Member To Class: ClassName=lm7805 Member=Component P2 Domino 2
