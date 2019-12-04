@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=RESET Pin=S1-3
+Removed Pin From Net: NetName=GND Pin=S1-4
+Removed Pin From Net: NetName=RS232SW Pin=S2-3
+Removed Pin From Net: NetName=GND Pin=S2-4
+Removed Pin From Net: NetName=+12 Pin=U12-1
+Added Component: Designator=S3(JS CK switch)
+Added Pin To Net: NetName=+12 Pin=S3-2
+Added Pin To Net: NetName=NetS3_1,2 Pin=S3-1
+Added Pin To Net: NetName=NetS3_1,2 Pin=U12-1
+Added Net: Name=NetS3_1,2
+Added Member To Class: ClassName=Power Member=Component S3 Switch

@@ -1,0 +1,24 @@
+Added Component: Designator=C26(0805 (2012) Capacitor)
+Added Component: Designator=C27(0805 (2012) Capacitor)
+Added Component: Designator=C28(0805 (2012) Capacitor)
+Added Component: Designator=C29(0805 (2012) Capacitor)
+Added Component: Designator=R93(R 0805 (2012) RESISTOR)
+Added Component: Designator=R94(R 0805 (2012) RESISTOR)
+Added Component: Designator=R95(R 0805 (2012) RESISTOR)
+Added Component: Designator=R96(R 0805 (2012) RESISTOR)
+Added Component: Designator=R97(R 0805 (2012) RESISTOR)
+Added Pin To Net: NetName=+5 Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Pin To Net: NetName=+5 Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=+5 Pin=C26-1
+Added Pin To Net: NetName=GND Pin=C26-2
+Added Pin To Net: NetName=+5 Pin=C27-1
+Added Pin To Net: NetName=GND Pin=C27-2
+Added Pin To Net: NetName=+5 Pin=C28-1
+Added Pin To Net: NetName=GND Pin=C29-1
+Added Pin To Net: NetName=+5 Pin=R95-1
+Added Pin To Net: NetName=GND Pin=R96-1
+Added Pin To Net: NetName=GND Pin=R97-2
+Added Pin To Net: NetName=+5 Pin=U12-7
+Added Pin To Net: NetName=GND Pin=U12-8

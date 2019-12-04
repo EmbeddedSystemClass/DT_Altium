@@ -1,0 +1,4 @@
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=Microcontroller|SchDesignator=Microcontroller|FileName=LEDMicro.SchDoc|SymbolType=Normal|RawFileName=LEDMicro.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=Multiplexor|SchDesignator=Multiplexor|FileName=LEDMulti.SchDoc|SymbolType=Normal|RawFileName=LEDMulti.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=Power|SchDesignator=Power|FileName=LEDPower.SchDoc|SymbolType=Normal|RawFileName=LEDPower.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=TopLevelDocument|FileName=Main.SchDoc

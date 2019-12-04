@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: LEDCube.PcbDoc   11/10/2014  10:45:48 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : LEDCube.TXT
+EIA File   : LEDCube.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        15mil (0.381mm)          Round          205              40.67 Inch (1032.90 mm)
+T2        28mil (0.7112mm)         Round          1                0.00 Inch (0.00 mm)
+T3        35mil (0.889mm)          Round          88               17.28 Inch (438.92 mm)
+T4        39.37mil (1mm)           Round          12               3.14 Inch (79.78 mm)
+T5        50mil (1.27mm)           Round          3                0.49 Inch (12.45 mm)
+T6        55mil (1.397mm)          Round          2                0.35 Inch (8.89 mm)
+T7        260mil (6.604mm)         Round          2                2.12 Inch (53.92 mm)
+---------------------------------------------------------------------------
+Totals                                            313              64.05 Inch (1626.86 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

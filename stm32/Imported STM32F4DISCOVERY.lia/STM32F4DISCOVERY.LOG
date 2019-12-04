@@ -1,0 +1,32 @@
+PCAD Importer Log
+Project : STM32F4DISCOVERY.LibPkg
+
+Section : C:\Users\dinh thong\Desktop\quad_hardware\STM32F4DISCOVERY.lia
+    Section : PCB Library - STM32F4DISCOVERY.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token STM32F4DISCOVERY_SECTION1 On Line 234
+            Warning - 1 : Skipping Token STM32F4DISCOVERY_SECTION2 On Line 700
+            Warning - 1 : Skipping Token attachedSymbol On Line 1277
+            Warning - 1 : Skipping Token attachedSymbol On Line 1278
+        EndSection
+
+        Section : Import Messages
+            Warning - 0 : PCAD Pattern Graphics [STMICROELECTRONICS_STM32F4DISCOVERY][Primary] associated with PCAD Component [STM32F4DISCOVERY] has been renamed to PCB FootPrint [STMICROELECTRONICS_STM32F4DISCOVERY_STM32F4DISCOVERY(Primary)].
+        EndSection
+    EndSection
+
+    Section : SCH Library - STM32F4DISCOVERY.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 198
+            Warning - 1 : Skipping Token layerContents On Line 211
+            Warning - 1 : Skipping Token layerContents On Line 222
+        EndSection
+
+        Section : Generating SCH Library - STM32F4DISCOVERY.SchLib
+            Warning - 0 : PCAD Pattern Graphics [STMICROELECTRONICS_STM32F4DISCOVERY][Primary] associated with PCAD Component [STM32F4DISCOVERY] has been renamed to PCB FootPrint [STMICROELECTRONICS_STM32F4DISCOVERY_STM32F4DISCOVERY(Primary)].
+        EndSection
+    EndSection
+EndSection

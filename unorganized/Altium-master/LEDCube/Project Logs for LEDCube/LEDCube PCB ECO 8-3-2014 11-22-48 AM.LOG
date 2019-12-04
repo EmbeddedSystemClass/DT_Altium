@@ -1,0 +1,50 @@
+Added Pin To Net: NetName=A0 Pin=U9-1
+Added Pin To Net: NetName=A1 Pin=U9-2
+Added Pin To Net: NetName=A2 Pin=U9-3
+Added Pin To Net: NetName=LINE8 Pin=U11-30
+Added Pin To Net: NetName=LINE7 Pin=U11-31
+Added Pin To Net: NetName=LINE6 Pin=U11-32
+Added Pin To Net: NetName=LINE5 Pin=U11-33
+Added Pin To Net: NetName=LINE4 Pin=U11-34
+Added Pin To Net: NetName=LINE3 Pin=U11-35
+Added Pin To Net: NetName=LINE2 Pin=U11-36
+Added Pin To Net: NetName=LINE1 Pin=U11-37
+Added Pin To Net: NetName=LINE0 Pin=U11-43
+Added Pin To Net: NetName=NetC10_2 Pin=C10-2
+Added Pin To Net: NetName=NetC10_2 Pin=C11-2
+Added Pin To Net: NetName=NetC10_2 Pin=R93-2
+Added Pin To Net: NetName=NetC10_2 Pin=R94-2
+Added Pin To Net: NetName=NetC10_2 Pin=U12-1
+Added Net: Name=NetC10_2
+Added Pin To Net: NetName=NetC28_2 Pin=C28-2
+Added Pin To Net: NetName=NetC28_2 Pin=R95-2
+Added Pin To Net: NetName=NetC28_2 Pin=R97-1
+Added Pin To Net: NetName=NetC28_2 Pin=U12-6
+Added Net: Name=NetC28_2
+Added Pin To Net: NetName=NetC29_2 Pin=C29-2
+Added Pin To Net: NetName=NetC29_2 Pin=U12-5
+Added Net: Name=NetC29_2
+Added Pin To Net: NetName=NetR93_1 Pin=R93-1
+Added Pin To Net: NetName=NetR93_1 Pin=U12-2
+Added Net: Name=NetR93_1
+Added Pin To Net: NetName=NetR94_1 Pin=R94-1
+Added Pin To Net: NetName=NetR94_1 Pin=R96-2
+Added Pin To Net: NetName=NetR94_1 Pin=U12-3
+Added Net: Name=NetR94_1
+Change Class Name : Old Net Name=Microcontroller New Net Name=LEDMicro
+Change Class Name : Old Net Name=Multiplexor New Net Name=LEDMulti
+Change Class Name : Old Net Name=Power New Net Name=LEDPower
+Added Member To Class: ClassName=LEDPower Member=Component C12 100uF
+Added Member To Class: ClassName=LEDPower Member=Component C26 1000pF
+Added Member To Class: ClassName=LEDPower Member=Component C27 1000pF
+Added Member To Class: ClassName=LEDPower Member=Component C28 .1uF
+Added Member To Class: ClassName=LEDPower Member=Component C29 .022uF
+Added Member To Class: ClassName=LEDPower Member=Component R93 100K
+Added Member To Class: ClassName=LEDPower Member=Component R94 3.74K
+Added Member To Class: ClassName=LEDPower Member=Component R95 5.62K
+Added Member To Class: ClassName=LEDPower Member=Component R96 1.07K
+Added Member To Class: ClassName=LEDPower Member=Component R97 1.07K
+Change Room Name: Old Name=Power New Name=LEDPower
+Change Room Scope: Old Scope=InComponentClass('Power') New Scope=InComponentClass('LEDPower')
+Added Room: Name=LEDMicro
+Added Room: Name=LEDMulti

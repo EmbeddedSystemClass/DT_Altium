@@ -1,0 +1,5 @@
+Added Component: Designator=R99(0805 (2012) Capacitor)
+Added Pin To Net: NetName=GND Pin=R99-2
+Added Pin To Net: NetName=SWITCH- Pin=R99-1
+Added Net: Name=SWITCH-
+Added Member To Class: ClassName=LEDPower Member=Component R99 270

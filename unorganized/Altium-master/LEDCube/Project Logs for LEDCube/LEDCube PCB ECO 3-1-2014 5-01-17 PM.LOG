@@ -1,0 +1,17 @@
+Added Component: Designator=U9(SOP16)
+Added Pin To Net: NetName=ADDR0 Pin=U9-1
+Added Pin To Net: NetName=ADDR1 Pin=U9-2
+Added Pin To Net: NetName=ADDR2 Pin=U9-3
+Added Pin To Net: NetName=GND Pin=U9-4
+Added Pin To Net: NetName=GND Pin=U9-5
+Added Pin To Net: NetName=+5 Pin=U9-6
+Added Pin To Net: NetName=Y7 Pin=U9-7
+Added Pin To Net: NetName=GND Pin=U9-8
+Added Pin To Net: NetName=Y6 Pin=U9-9
+Added Pin To Net: NetName=Y5 Pin=U9-10
+Added Pin To Net: NetName=Y4 Pin=U9-11
+Added Pin To Net: NetName=Y3 Pin=U9-12
+Added Pin To Net: NetName=Y2 Pin=U9-13
+Added Pin To Net: NetName=Y1 Pin=U9-14
+Added Pin To Net: NetName=Y0 Pin=U9-15
+Added Pin To Net: NetName=+5 Pin=U9-16

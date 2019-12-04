@@ -1,0 +1,8 @@
+Added Component: Designator=R90(0805 (2012) Capacitor)
+Added Pin To Net: NetName=+5 Pin=LED2-2
+Added Pin To Net: NetName=GND Pin=R90-2
+Added Pin To Net: NetName=NetLED2_1 Pin=LED2-1
+Added Pin To Net: NetName=NetLED2_1 Pin=R90-1
+Added Net: Name=NetLED2_1
+Added Member To Class: ClassName=Power Member=Component LED2 LED
+Added Member To Class: ClassName=Power Member=Component R90 1K

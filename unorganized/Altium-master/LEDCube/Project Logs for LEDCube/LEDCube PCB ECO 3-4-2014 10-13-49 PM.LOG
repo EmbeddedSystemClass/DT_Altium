@@ -1,0 +1,6 @@
+Change Net Name : Old Net Name=ADDR0 New Net Name=A0
+Change Net Name : Old Net Name=ADDR1 New Net Name=A1
+Change Net Name : Old Net Name=ADDR2 New Net Name=A2
+Added Member To Class: ClassName=Multiplexor Member=Component U6 SN74HC574NSR
+Added Member To Class: ClassName=Multiplexor Member=Component U7 SN74HC574NSR
+Added Member To Class: ClassName=Multiplexor Member=Component U8 SN74HC574NSR

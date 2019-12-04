@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=LINE6 Pin=U11-32
+Added Member To Class: ClassName=Microcontroller Member=Component C6 1uF
+Added Member To Class: ClassName=Microcontroller Member=Component U11 Atmega22

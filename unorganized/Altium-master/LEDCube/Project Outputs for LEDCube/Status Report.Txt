@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [LEDCube.PrjPCB]
+   Generated File[LEDCube.TXT]
+   Generated File[LEDCube.DRL]
+   Generated File[LEDCube.LDP]
+   Generated File[LEDCube.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 10:45:48 PM On 11/10/2014
